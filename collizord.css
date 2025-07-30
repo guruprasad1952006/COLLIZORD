@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  scroll-behavior: smooth;
+}
+.background {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  
+}
+  body::before {
+  content: '';
+  background-image: url('Logo11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.35;
+  filter: blur(8px);
+  z-index: -1;
+
+
+
+}
+nav {
+  display: flex;
+  justify-content:right;
+  gap: 20px;
+  padding: 10px;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #00d0ff; 
+  }
+nav a {
+  text-decoration: none;
+}
+    header {
+ background: transparent;
+  padding: 80px 20px;
+  text-align: center;
+}
+.logo{
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  margin : 0 auto;
+  top: 50px;
+}
+header h1 {
+  color: #00d0ff;
+  font-size: 2.5em;
+  margin: 0;
+}
+header .btn {
+  padding: 12px 24px;
+  background: #00d0ff;
+  color: #000;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.btn.outline {
+  background: transparent;
+  border: 1px solid #00d0ff;
+  color: #00d0ff;
+}
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #2a2a2a;
+  text-align: center;
+}
+section h1 {
+  color: #00d0ff;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px;
+  background: #00d0ff;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #1a1a1a;
+}
